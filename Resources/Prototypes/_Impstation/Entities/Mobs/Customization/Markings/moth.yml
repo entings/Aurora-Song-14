@@ -204,7 +204,7 @@
   sprites:
   - sprite: _Impstation/Mobs/Customization/Moth/head.rsi
     state: slashright
-    
+
 - type: marking
   id: MothHeadTuft
   bodyPart: HeadSide
@@ -1088,40 +1088,5 @@
     state: pyr_inner_front
   - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
     state: pyr_stripes_front
-
-- type: marking
-  id: WingsDragonfly
-  bodyPart: Tail
-  markingCategory: Tail
-  speciesRestriction: [ Moth ]
-  sprites:
-  - sprite: _Impstation/Mobs/Customization/Moth/tail.rsi
-    state: dragonfly1
-  - sprite: _Impstation/Mobs/Customization/Moth/tail.rsi
-    state: dragonfly2
-  - sprite: _Impstation/Mobs/Customization/Moth/tail.rsi
-    state: dragonfly3
-
-- type: marking
-  id: WingsFly
-  bodyPart: Tail
-  markingCategory: Tail
-  speciesRestriction: [ Moth ]
-  sprites:
-  - sprite: _Impstation/Mobs/Customization/Moth/tail.rsi
-    state: fly1
-  - sprite: _Impstation/Mobs/Customization/Moth/tail.rsi
-    state: fly2
-  - sprite: _Impstation/Mobs/Customization/Moth/tail.rsi
-    state: fly3
-
-- type: marking
-  id: WingsLanternfly
-  bodyPart: Tail
-  markingCategory: Tail
-  speciesRestriction: [ Moth ]
-  sprites:
-  - sprite: _Impstation/Mobs/Customization/Moth/tail.rsi
-    state: lanternfly
 
 # RArmExtension

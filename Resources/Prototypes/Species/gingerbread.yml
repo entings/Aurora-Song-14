@@ -12,6 +12,8 @@
 - type: speciesBaseSprites
   id: MobGingerbreadSprites
   sprites:
+    TailBehind: MobHumanoidAnyMarking # floof. just in case i guess?
+    TailOversuit: MobHumanoidAnyMarking # floof
     Head: MobGingerbreadHead
     Hair: MobHumanoidAnyMarking # Aurora's Song - Hair just so they can have a lil more customization
     HeadTop: MobHumanoidAnyMarking
