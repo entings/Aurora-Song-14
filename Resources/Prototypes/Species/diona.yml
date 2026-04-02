@@ -12,10 +12,18 @@
   femaleFirstNames: NamesDionaFirst
   lastNames: NamesDionaLast
   naming: TheFirstofLast
+  sexes:
+  - Male
+  - Female
+  - Unsexed
+  youngAge: 50 # imp
+  oldAge: 90 # imp
 
 - type: speciesBaseSprites
   id: MobDionaSprites
   sprites:
+    TailBehind: MobHumanoidAnyMarking # floof
+    TailOversuit: MobHumanoidAnyMarking # floof
     Head: MobDionaHead
     HeadTop: MobHumanoidAnyMarking
     HeadSide: MobHumanoidAnyMarking
@@ -40,13 +48,14 @@
       points: 2
       required: false
     HeadTop:
-      points: 2 #imp
+      points: 3 #imp
       required: false
     HeadSide:
       points: 2 #imp
       required: false
     UndergarmentTop:
       points: 1
+      required: false
     UndergarmentBottom:
       points: 1
       required: false

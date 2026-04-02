@@ -1,29 +1,34 @@
 ## hey this is carousel
 ## in service of vox being somewhat in line with impstation species design standards
 ## i have rearranged the furniture in here quite severely
+## mouse here!! im also doing edits, textureswise mostly, to make voxtails actually tails
+## Who let the tails be part of the fucking TORSO
 
 - type: species
   id: Vox
   name: species-name-vox
-  roundStart: true
+  roundStart: true # imp
   prototype: MobVox
   sprites: MobVoxSprites
   markingLimits: MobVoxMarkingLimits
   dollPrototype: MobVoxDummy
-  skinColoration: Hues # imp VoxFeathers<Hues
+  skinColoration: Hues #imp
   defaultSkinTone: "#6c741d"
   maleFirstNames: NamesVox
   femaleFirstNames: NamesVox
   naming: First
   sexes:
+  - Male #imp
+  - Female #imp
   - Unsexed
 
 - type: speciesBaseSprites
   id: MobVoxSprites
   sprites:
+    TailBehind: MobHumanoidAnyMarking # floof
+    TailOversuit: MobHumanoidAnyMarking # floof
     Head: MobVoxHead
     Snout: MobHumanoidAnyMarking
-    Underwear: MobHumanoidAnyMarking #imp
     HeadSide: MobHumanoidAnyMarking #imp
     Hair: MobHumanoidAnyMarking
     FacialHair: MobHumanoidAnyMarking
@@ -52,7 +57,7 @@
       points: 1
       required: false
     Head:
-      points: 2
+      points: 4
       required: false #imp
     HeadSide: #imp
       points: 2
@@ -61,6 +66,9 @@
       points: 1
       required: false #imp
       #defaultMarkings: [ VoxBeak ]
+    SnoutCover:
+      points: 1
+      required: false
     Arms:
       points: 6
       required: false #imp
@@ -69,10 +77,7 @@
       points: 6
       required: false #imp
       #defaultMarkings: [ VoxLLegScales, VoxRLegScales, VoxRFootScales, VoxLFootScales ]
-    Chest:
-      points: 2
-      required: false
-    Underwear: #imp
+    UndergarmentTop:
       points: 1
       required: false
     UndergarmentBottom:
@@ -81,13 +86,13 @@
     Chest:
       points: 2
       required: false
-    Overlay: # imp
+    Overlay: #imp
       points: 4
       required: false
     Tail:
       points: 1
-      required: false #imp
-      #defaultMarkings: [ VoxTail ]
+      required: true
+      defaultMarkings: [ VoxTailBack ] #imp
 
 - type: humanoidBaseSprite
   id: MobVoxEyes
@@ -116,19 +121,19 @@
 - type: humanoidBaseSprite
   id: MobVoxTorso
   baseSprite:
-    sprite: Mobs/Species/Vox/parts.rsi
+    sprite: _Impstation/Mobs/Species/Vox/parts.rsi #imp
     state: torso
 
 - type: humanoidBaseSprite
   id: MobVoxTorsoMale
   baseSprite:
-    sprite: Mobs/Species/Vox/parts.rsi
+    sprite: _Impstation/Mobs/Species/Vox/parts.rsi #imp
     state: torso
 
 - type: humanoidBaseSprite
   id: MobVoxTorsoFemale
   baseSprite:
-    sprite: Mobs/Species/Vox/parts.rsi
+    sprite: _Impstation/Mobs/Species/Vox/parts.rsi #imp
     state: torso
 
 - type: humanoidBaseSprite
