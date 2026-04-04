@@ -147,19 +147,19 @@
 
 # Eyes
 
-#- type: marking    # AS - commented out because not working
-#  id: SlimeEyesDefault
-#  bodyPart: Eyes
-#  markingCategory: Eyes
-#  speciesRestriction: [ SlimePerson ]
-#  forcedColoring: true
-#  coloring:
-#    default:
-#      type:
-#        !type:EyeColoring
-#  sprites:
-#  - sprite: _Impstation/Mobs/Species/Slime/parts.rsi
-#    state: eyes
+- type: marking    # AS - commented out because not working
+  id: SlimeEyesDefault
+  bodyPart: Eyes
+  markingCategory: Eyes
+  speciesRestriction: [ SlimePerson ]
+  forcedColoring: true
+  coloring:
+    default:
+      type:
+        !type:EyeColoring
+  sprites:
+  - sprite: _Impstation/Mobs/Species/Slime/parts.rsi
+    state: eyes
 
 - type: marking
   id: SlimeEyeglow
