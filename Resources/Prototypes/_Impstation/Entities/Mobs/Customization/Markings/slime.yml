@@ -1,4 +1,13 @@
 - type: marking
+  id: SlimeEyebags
+  bodyPart: Head
+  markingCategory: Overlay
+  speciesRestriction: [ SlimePerson ] # Aurora's Song - Slime head markings need to go on Overlay
+  sprites:
+  - sprite: _Impstation/Mobs/Customization/markingsbundle2.rsi
+    state: eyebags
+
+- type: marking
   id: SlimeNose
   bodyPart: Head
   markingCategory: Overlay # Aurora's Song - Moved slime's markings to overlay
