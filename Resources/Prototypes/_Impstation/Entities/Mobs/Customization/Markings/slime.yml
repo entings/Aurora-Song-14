@@ -3,6 +3,8 @@
   bodyPart: Head
   markingCategory: Overlay
   speciesRestriction: [ SlimePerson ] # Aurora's Song - Slime head markings need to go on Overlay
+  forcedColoring: true
+  followSkinColor: true
   sprites:
   - sprite: _Impstation/Mobs/Customization/markingsbundle2.rsi
     state: eyebags
