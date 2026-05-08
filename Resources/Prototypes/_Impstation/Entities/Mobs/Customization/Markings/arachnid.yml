@@ -208,6 +208,17 @@
   - sprite: _Impstation/Mobs/Customization/Arachnid/headside.rsi
     state: longjaw
 
+# Snout
+
+- type: marking
+  id: WhipSpiderMouth
+  bodyPart: Snout
+  markingCategory: HeadSide
+  speciesRestriction: [ Arachnid ]
+  sprites:
+  - sprite: _Impstation/Mobs/Customization/Arachnid/snout.rsi
+    state: whipspidermouth
+
 # Chest
 - type: marking
   id: ArachnidTorsoSegments
