@@ -11,7 +11,7 @@
   - type: HumanoidAppearance
     species: Arachnid
     hideLayersOnEquip: # Aurora: Hide your dang fangs
-    - Hair
+    - Hair # imp
     - Snout
     - HeadTop
     - HeadSide
