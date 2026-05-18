@@ -1,6 +1,3 @@
-marking-SlimeEyebags = Eyebags
-marking-SlimeEyebags-eyebags = Eyebags
-
 marking-SlimeNose-nose = Nose (Profile)
 marking-SlimeNose = Nose (Profile)
 

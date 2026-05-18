@@ -45,6 +45,7 @@
   bodyPart: Head
   markingCategory: Overlay
   speciesRestriction: [SlimePerson]
+  forcedColoring: true
   coloring:
     default:
       type:

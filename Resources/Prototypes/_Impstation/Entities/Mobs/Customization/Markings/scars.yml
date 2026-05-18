@@ -183,7 +183,8 @@
   bodyPart: Head
   markingCategory: Overlay
   speciesRestriction: [SlimePerson]
-  followSkinColor: false
+  forcedColoring: true
+  followSkinColor: true
   sprites:
   - sprite: _Impstation/Mobs/Customization/scars.rsi
     state: head_smile
