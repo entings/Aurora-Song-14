@@ -183,8 +183,8 @@
   bodyPart: Head
   markingCategory: Overlay
   speciesRestriction: [SlimePerson]
-  forcedColoring: true
-  followSkinColor: true
+  forcedColoring: true # Aurora's Song
+  followSkinColor: false
   sprites:
   - sprite: _Impstation/Mobs/Customization/scars.rsi
     state: head_smile
@@ -204,6 +204,7 @@
   bodyPart: Head
   markingCategory: Overlay
   speciesRestriction: [SlimePerson]
+  forcedColoring: true # Aurora's Song
   followSkinColor: false
   sprites:
   - sprite: _Impstation/Mobs/Customization/scars.rsi
