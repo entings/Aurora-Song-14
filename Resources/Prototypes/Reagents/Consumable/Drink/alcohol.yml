@@ -21,12 +21,12 @@
       - !type:AdjustReagent
         reagent: Ethanol
         amount: 0.3
-    Narcotic: # The green fairy
-      metabolismRate : 0.01
-      effects:
-      - !type:AdjustReagent
-        reagent: Ethanol
-        amount: 0.05
+#    Narcotic: # The green fairy
+#      metabolismRate : 0.01
+#      effects:
+#      - !type:AdjustReagent
+#        reagent: Ethanol
+#        amount: 0.05
       - !type:ModifyStatusEffect
         effectProto: StatusEffectSeeingRainbow
         conditions:
