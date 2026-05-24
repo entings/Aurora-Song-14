@@ -37,4 +37,4 @@ marking-ScarEyeLeftSmall = Small Eye Scar (Left)
 # Aurora's Song - Seperates slime markings from head to overlay
 marking-ScarSlimeFace1 = Face Scar (Large)
 marking-ScarSlimeFace2 = Face Scar (Small)
-marking-ScarSlimeNeck = Neck
+marking-ScarSlimeNeck = Neck Scar
