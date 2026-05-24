@@ -21,7 +21,7 @@
       - !type:AdjustReagent
         reagent: Ethanol
         amount: 0.3
-#    Narcotic: # The green fairy
+#    Narcotic: # The green fairy # Aurora's Song - so it doesn't kill slime people
 #      metabolismRate : 0.01
 #      effects:
 #      - !type:AdjustReagent
