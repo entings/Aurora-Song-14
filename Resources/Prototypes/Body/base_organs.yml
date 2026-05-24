@@ -144,6 +144,18 @@
   - type: InputMover
   - type: Examiner
   - type: BlockMovement
+# Aurora's Song - edible, grindable organs
+  - type: Edible
+  - type: Extractable
+    grindableSolutionName: food
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 5
+        reagents:
+        - ReagentId: GreyMatter
+          Quantity: 5
+# Aurora's Song edit ends
   - type: BadFood
   - type: FoodSequenceElement
     entries:
@@ -225,6 +237,16 @@
       Lung:
         maxVol: 100.0
         canReact: false
+# Aurora's Song - edible, grindable organs
+      food:
+        maxVol: 5
+        reagents:
+        - ReagentId: UncookedAnimalProteins
+          Quantity: 5
+  - type: Extractable
+    grindableSolutionName: food
+  - type: Edible
+# Aurora's Song edit ends
   - type: Sprite
     layers:
     - state: lung-l
@@ -251,6 +273,18 @@
     - id: Poison
     - id: Narcotic
     - id: Cryogenic # Aurora's Song - Metabolizes cryogenics separately
+# Aurora's Song - edible, grindable organs
+  - type: Edible
+  - type: Extractable
+    grindableSolutionName: food
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 5
+        reagents:
+        - ReagentId: UncookedAnimalProteins
+          Quantity: 5
+# Aurora's Song edit ends
 
 - type: entity
   parent: OrganBase
@@ -266,6 +300,16 @@
     solutions:
       stomach:
         maxVol: 50
+# Aurora's Song - edible, grindable organs
+      food:
+        maxVol: 5
+        reagents:
+        - ReagentId: UncookedAnimalProteins
+          Quantity: 5
+  - type: Extractable
+    grindableSolutionName: food
+  - type: Edible
+# Aurora's Song edit ends
   - type: Metabolizer
     maxReagents: 3
     groups:
@@ -295,6 +339,18 @@
     maxReagents: 1
     groups:
     - id: Alcohol
+# Aurora's Song - edible, grindable organs
+  - type: Edible
+  - type: Extractable
+    grindableSolutionName: food
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 5
+        reagents:
+        - ReagentId: UncookedAnimalProteins
+          Quantity: 5
+# Aurora's Song edit ends
 
 - type: entity
   parent: OrganBase
@@ -314,6 +370,18 @@
   - type: Metabolizer
     maxReagents: 5
     removeEmpty: true
+# Aurora's Song - edible, grindable organs
+  - type: Edible
+  - type: Extractable
+    grindableSolutionName: food
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 5
+        reagents:
+        - ReagentId: UncookedAnimalProteins
+          Quantity: 5
+# Aurora's Song edit ends
 
 - type: entity
   id: OrganSpriteHumanInternal
