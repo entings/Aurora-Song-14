@@ -21,7 +21,6 @@
           Quantity: 5
 # Aurora's Song edit ends
 
-
 - type: entity
   id: BaseMobRuminant
   abstract: true
