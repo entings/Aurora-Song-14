@@ -1,0 +1,15 @@
+- type: Interaction
+  id: Bite
+  parent: [BaseGlobal, BaseHands]
+  delay: 0.5
+  hideByRequirement: true
+  requirement:
+    !type:MobStateRequirement
+    inverted: true
+  action:
+    !type:ModifyHealthAction
+      damage:
+        types: {Piercing: 1}
+  effectSuccess:
+    popup: Obvious
+    sound: {path: /Audio/Effects/bite.ogg}
